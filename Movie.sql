@@ -92,18 +92,9 @@ values
 ('Inglourious Basterds', 2, 8.3, 153),
 ('Schindler''s List', 3, 8.9, 195);
 
-insert into MovieActor (MovieId, ActorId)
-values 
-(1, 1),
-(1, 2),
-(3, 3);
+insert into MovieActor (MovieId, ActorId) values (1, 1), (1, 2), (3, 3);
 
-insert into MovieGenre (MovieId, GenreId)
-values 
-(1, 1),
-(1, 3),
-(2, 2),
-(3, 2);
+insert into MovieGenre (MovieId, GenreId) values (1, 1), (1, 3), (2, 2), (3, 2);
 
 select 
     m.MovieName,
